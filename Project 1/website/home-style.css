@@ -28,7 +28,7 @@ body {
     content: '';
     display: block;
     height: 10px;
-    background-color: yellow;
+    background-color: #FFFF7E;
     bottom: 0%;
     position: absolute;
     width: 0%;
@@ -54,3 +54,20 @@ body {
     letter-spacing: 1px;
 }
 
+.yellow-box {
+    width: auto;
+    height: 500px; 
+    margin-right: 25px;
+    margin-left: 15px;
+    padding-top: 15px;
+    background-color: #FFFF7E;
+}
+
+.centered {
+    font-size: 100px; 
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
