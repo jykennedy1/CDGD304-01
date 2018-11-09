@@ -1,11 +1,12 @@
 body {
-/*    margin: 20px 80px;*/
+    /*    margin: 20px 80px;*/
 
     font-family: 'Raleway', sans-serif;
 }
 
 .images {
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .grid_parent {
     display: grid;
@@ -14,6 +15,7 @@ body {
     grid-column-gap: 2em;
     grid-auto-rows: minmax(300px, auto);
     align-items: stretch;
+
 }
 
 .shared {
