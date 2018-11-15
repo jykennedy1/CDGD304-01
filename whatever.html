@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>homepage</title>
+        <style type="text/css">
+
+            body {
+                margin: 2em ;
+            }
+
+            section {
+                /*                background-color: blue ;*/
+                /*                border: 2px solid blue ;*/
+            }
+
+            #grid {
+                display: grid ;
+                grid-template-columns: [start] 1fr [middle] 1fr [end] ;
+                grid-template-rows: auto 500px 500px ; /* FIXME */
+                /*                grid-row-gap: 1em ;*/
+            }
+
+            .label {
+                /*                background-color: red ;*/
+                font-family: Helvetica ;
+                font-weight: bold ;
+                font-size: 8em ;
+                position: relative ;
+                top: 30px ;
+                /*
+                position: relative works in conjunction with the top, bottem, left, right
+                */
+
+            }
+
+            .label, .full_width {
+                grid-column-start: start ;
+                grid-column-end: end ;
+
+            }
+
+            .left_col {
+                grid-column-start: start ;
+                grid-column-end: middle ;
+                background-color: yellow ;
+            }
+
+            img {
+                width: 100% ;
+                height: 100% ;
+                object-fit: cover ;
+            }
+
+            .right_col {
+                grid-column-start: middle ;
+                grid-column-end: end ;
+                background-color: purple;
+            }
+
+            .full_width {
+                background-color: blue ;
+            }
+
+
+            header {
+                height: 100px ;
+                background-color: gray ;
+                margin-bottom: 1em ;
+            }
+        </style>
+    </head>       
+    <body>
+
+        <!-- header! -->
+        <header>
+            <div>
+            </div>
+            <nav>
+            </nav>
+        </header>
+
+
+
+        <div id="grid">
+            <section class="label"> 
+
+                big helvetica
+
+            </section>
+            <section class="left_col"> 
+
+                <img src="daily%20sketch%2014.jpeg">
+
+            </section>
+            <section class="right_col"> 
+
+                3
+
+            </section>
+            <section class="full_width"> 
+
+                4
+
+            </section>
+
+
+
+        </div>
+
+
+    </body>
+</html>
+
