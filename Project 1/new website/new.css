@@ -1,0 +1,216 @@
+body {
+    margin: 3em ;
+    font-family: helvetica;
+}
+
+/*header*/
+
+header {
+    text-align: center;
+    color: black;
+
+
+}
+
+.nav {
+    color: black;  
+    padding: 20px;
+    list-style: none;
+    word-spacing: 1em;
+    text-decoration: none;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 13px;
+    position: relative;
+    font-size: 13px;   
+    text-decoration: none;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+#jyk {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    display: inline-block;
+
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+
+/*
+.nav > li> a::before {
+content: '';
+display: block;
+height: 10px;
+background-color: #FFFF7E;
+position: absolute;
+width: 0%;
+transition: all ease-in-out 250ms; 
+z-index: -1;
+}
+
+.nav > li > a:hover::before {
+width: 70%;
+}
+*/
+
+/*work*/
+
+#grid1 {
+    display: grid ;
+    grid-template-columns: [start] 1fr [middle] 1fr [end] ;
+    grid-template-rows: 400px 500px 500px ; /* FIXME */
+    /*                grid-row-gap: 1em ;*/
+}
+
+.label1 {
+    /*    background-color: red ;*/
+    font-family: Helvetica ;
+    font-weight: bold ;
+    font-size: 8em ;
+    position: relative ;
+    top:314px ;
+    /*
+    position: relative works in conjunction with the top, bottem, left, right
+    */
+
+}
+
+.label1, .full_width1 {
+    grid-column-start: start ;
+    grid-column-end: end ;
+
+}
+
+.left_col1 {
+    grid-column-start: start ;
+    grid-column-end: middle ;
+    background-color: lightgreen;
+    text-align: center;
+    font-weight: bold;
+    line-height: 500px;
+    font-size: 30px;
+}
+
+.right_col1 {
+    grid-column-start: middle ;
+    grid-column-end: end ;
+    background-color: lavender;
+    text-align: center;
+    font-weight: bold;
+    line-height: 500px;
+    font-size: 30px;
+}
+
+.full_width1 {
+    background-color: lightsalmon;
+    grid-column-start: start ;
+    grid-column-end: middle ;
+    text-align: center;
+    font-weight: bold;
+    line-height: 500px;
+    font-size: 30px;
+    
+    
+}
+
+.boop1 {
+    background-color: lightcyan;
+    grid-column-start: middle ;
+    grid-column-end: end ;
+    text-align: center;
+    font-weight: bold;
+    line-height: 500px;
+    font-size: 30px;
+}
+
+/*about*/
+
+section {
+    /*                background-color: blue ;*/
+    /*                border: 2px solid blue ;*/
+}
+
+#grid2 {
+/*    border: solid blue;*/
+    display: grid ;
+    grid-template-columns: [start] 1fr [middle] 1fr [end] ;
+    grid-template-rows: 400px 500px  ; /* FIXME */
+    /*                grid-row-gap: 1em ;*/
+}
+
+.label {
+    /* background-color: red ;*/
+    font-family: Helvetica ;
+    font-weight: bold ;
+    font-size: 8em ;
+    position: relative ;
+    top:314px ;
+    /*
+    position: relative works in conjunction with the top, bottem, left, right
+    */
+
+}
+
+.label {
+    grid-column-start: start ;
+    grid-column-end: end ;
+
+}
+
+.left_col {
+    grid-column-start: start ;
+    grid-column-end: middle ;
+    background-color: skyblue;
+    font-weight: bold;
+    text-align: center;
+    line-height: 500px;
+    font-size: 30px;    
+    
+}
+
+.right_col {
+    grid-column-start: middle ;
+    grid-column-end: end ;
+    background-color: pink;
+    font-weight: bold;
+    text-align: center;
+    line-height: 500px;
+    font-size: 30px;
+}
+
+/*
+.full_width {
+        background-color: blue ;
+}
+*/
+
+.info {
+    height: auto;
+    /*    background-color: aqua;*/
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 150px;
+
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+    padding-top: 100px;
+    word-spacing: 1em;
+}
