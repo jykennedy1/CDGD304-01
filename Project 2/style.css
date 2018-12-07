@@ -3,7 +3,6 @@ body {
     font-family:'Source Code Pro', monospace; 
     color: white;
     margin: 30px;
-
 }
 
 #page_content {
@@ -11,6 +10,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*BEGIN NAVIGATION */
 
 nav {
     text-align: center;
@@ -45,6 +46,10 @@ nav {
     text-align: center;
 }
 
+/*END NAVIGATION*/
+
+
+/*HOME PAGE*/
 
 .container {
     display: block;
@@ -59,46 +64,11 @@ nav {
     left: 50px;
 }
 
-
-h1 {
-    font-size: 45px;
-    font-family:'Source Code Pro', monospace; 
-    font-weight: bold;
-    text-align: left;
-
-}
-
-h4 {
-    font-size: 20px;
-    text-align: center;
+/*END HOME PAGE*/
 
 
-}
 
-p {
-    font-size: 20px;
-    text-align: left;
-}
-
-
-.crop {
-    position: absolute;
-    left: -300%;
-    right: -100%;
-    top: -650%;
-    bottom: -400%;
-    margin: auto; 
-}
-
-.portrait {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 20px;
-
-}   
-
+/*PREVIEW PAGE*/
 .image_grid {
     display: grid;
     margin-left: auto;
@@ -108,41 +78,31 @@ p {
     grid-gap: 2em ;
 }
 
+.summary {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+/*END PREVIEW PAGE*/
+
+
+
+/*AUTHOR PAGE*/
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}   
+
 .characters {
     display: grid;
     margin-left: auto;
     margin-right: auto;
     grid-template-columns: 1fr 1fr;
-
-
-
-
-}
-
-/*
-.bioContainer {
-
-}
-*/
-
-
-/*
-.characters {
-display: block;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-
-}
-*/
-
-
-h2 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 1px;
 }
 
 .bio {
@@ -154,11 +114,11 @@ h2 {
     margin-right: auto;
 }
 
-.summary {
-    font-size: 15px;
-    line-height: 22px;
-    margin-bottom: 30px;
-}
+/*END AUTHOR PAGE*/
+
+
+
+/*BEGIN FOOTER*/
 
 footer {
     text-align: center;
@@ -177,3 +137,37 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+/*END FOOTER*/
+
+
+
+/*HEADERS*/
+
+h1 {
+    font-size: 45px;
+    font-family:'Source Code Pro', monospace; 
+    font-weight: bold;
+    text-align: left;
+}
+
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+/*END HEADERS*/
