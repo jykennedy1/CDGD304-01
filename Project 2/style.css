@@ -71,6 +71,31 @@ p {
     top: -650%;
     bottom: -400%;
     margin: auto; 
+}
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+
+}    
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.bio {
+    text-align: center;
+    font-size: 15px;
+    margin-left: 450px;
+    margin-right: 450px;
+    line-height: 22px;
 
 }
 
