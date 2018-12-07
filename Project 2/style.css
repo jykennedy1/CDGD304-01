@@ -6,6 +6,12 @@ body {
 
 }
 
+#page_content {
+    max-width: 900px ;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav {
     text-align: center;
     word-spacing: 2em;
@@ -20,6 +26,12 @@ nav {
 .nav > li > a {
     text-decoration: none;
     color: white;
+}
+
+/* Current page link style. */
+.nav > li > a.current_page {
+    color: hotpink ;
+    font-weight: bold;
 }
 
 .nav > li > a:hover {
@@ -57,7 +69,7 @@ nav {
 
 h1 {
     font-size: 45px;
-    font-family: Helvetica;
+    font-family:'Source Code Pro', monospace; 
     font-weight: bold;
     text-align: left;
 
@@ -94,22 +106,34 @@ p {
 
 }   
 
-.pictures {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 10px;
-    }
-
-.panel1 {
-    display: block;
+.pictures, .characters {
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 20px;
 }
+
+.panel1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.image_grid {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    /*    width: 800px;*/
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em ;
+}
+
+
 
 .back {
     text-decoration: none;
@@ -132,11 +156,17 @@ p {
 }
 */
 
+
 /*
 .characters {
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
 
 }
 */
+
 
 h2 {
     font-family: Helvetica;
@@ -157,7 +187,7 @@ h2 {
 .summary {
     font-size: 15px;
     line-height: 22px;
-    padding: 20px;
+    margin-bottom: 30px;
 }
 
 footer {
