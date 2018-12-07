@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family:'Source Code Pro', monospace; 
+    color: white;
 
 }
 
@@ -19,13 +20,48 @@ nav {
     color: white;
 }
 
-.homePic {
+.nav > li > a:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+.logo {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
     height: 603px;
     width: 1366px;
     overflow: hidden;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;    
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
 }
 
 .crop {
