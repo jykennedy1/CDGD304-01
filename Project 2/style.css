@@ -106,24 +106,6 @@ p {
 
 }   
 
-.pictures, .characters {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 20px;
-}
-
-.panel1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 20px;
-}
-
-
-
 .image_grid {
     display: grid;
     margin-left: auto;
@@ -133,6 +115,15 @@ p {
     grid-gap: 2em ;
 }
 
+.character {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+   
+
+}
 
 /*
 .bioContainer {
