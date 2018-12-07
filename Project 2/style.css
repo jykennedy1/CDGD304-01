@@ -9,6 +9,7 @@ body {
 nav {
     text-align: center;
     word-spacing: 2em;
+    /*    border: red 1px solid;*/
 }
 
 .nav > li {
@@ -23,7 +24,7 @@ nav {
 
 .nav > li > a:hover {
     text-decoration: none;
-    color: pink;
+    color: hotpink;
 }
 
 .logo {
@@ -31,6 +32,7 @@ nav {
     padding: 10px;
     text-align: center;
 }
+
 
 .container {
     display: block;
@@ -49,21 +51,30 @@ nav {
 
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 30px;
+    left: 50px;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 45px;
     font-family: Helvetica;
     font-weight: bold;
     text-align: left;
+
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+
+
 }
 
 p {
     font-size: 20px;
     text-align: left;
 }
+
 
 .crop {
     position: absolute;
@@ -81,7 +92,51 @@ p {
     text-align: center;
     padding: 20px;
 
-}    
+}   
+
+.pictures {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    }
+
+.panel1 {
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.back {
+    text-decoration: none;
+    color: white;
+}
+
+.back > a {
+    text-decoration: none;
+    color: white;
+}
+
+.back > a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
+/*
+.bioContainer {
+
+}
+*/
+
+/*
+.characters {
+
+}
+*/
 
 h2 {
     font-family: Helvetica;
@@ -97,7 +152,12 @@ h2 {
     margin-left: 450px;
     margin-right: 450px;
     line-height: 22px;
+}
 
+.summary {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 20px;
 }
 
 footer {
