@@ -7,7 +7,7 @@ body {
 }
 
 #page_content {
-    max-width: 900px ;   
+    max-width: 800px ;   
     margin-left: auto;
     margin-right: auto;
 }
@@ -130,25 +130,9 @@ p {
     margin-right: auto;
     /*    width: 800px;*/
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em ;
+    grid-gap: 2em ;
 }
 
-
-
-.back {
-    text-decoration: none;
-    color: white;
-}
-
-.back > a {
-    text-decoration: none;
-    color: white;
-}
-
-.back > a:hover {
-    text-decoration: none;
-    color: hotpink;
-}
 
 /*
 .bioContainer {
@@ -179,9 +163,10 @@ h2 {
 .bio {
     text-align: center;
     font-size: 15px;
-    margin-left: 450px;
-    margin-right: 450px;
     line-height: 22px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .summary {
