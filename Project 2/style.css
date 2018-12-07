@@ -51,13 +51,6 @@ nav {
 
 /*HOME PAGE*/
 
-.container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
 .bottom-left {
     position: absolute;
     bottom: 30px;
@@ -71,8 +64,6 @@ nav {
 /*PREVIEW PAGE*/
 .image_grid {
     display: grid;
-    margin-left: auto;
-    margin-right: auto;
     /*    width: 800px;*/
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2em ;
@@ -88,6 +79,18 @@ nav {
 
 
 
+/*CHARACTER PAGE*/
+
+.characters_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+/*END CHARACTER PAGE*/
+
+
+
 /*AUTHOR PAGE*/
 
 .portrait {
@@ -97,14 +100,6 @@ nav {
     text-align: center;
     padding: 20px;
 }   
-
-.characters {
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    grid-template-columns: 1fr 1fr;
-}
-
 .bio {
     text-align: center;
     font-size: 15px;
@@ -148,7 +143,7 @@ h1 {
     font-size: 45px;
     font-family:'Source Code Pro', monospace; 
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 
