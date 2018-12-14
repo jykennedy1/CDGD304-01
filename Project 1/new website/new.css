@@ -8,8 +8,6 @@ body {
 header {
     text-align: center;
     color: black;
-
-
 }
 
 .nav {
@@ -113,7 +111,16 @@ div.branding {
 }
 
 div.advertising {
-    background-image: url(img/DUNKINmockup2.jpg) ;
+    background-image: url(img/Yutkins-Kennedy_Ad1%20copy.jpg) ;
+}
+
+div.print {
+    background-image: url(img/book1.jpg) ;
+    color: white;
+}
+
+div.ui {
+    background-image: url(img/App_Janina%20Yutkins-Kennedy.jpg) ;
 }
 
 div.text_container {
@@ -143,7 +150,6 @@ p.text a:hover {
 }
 
 .full_width1 {
-    background-color: lightsalmon;
     grid-column-start: start ;
     grid-column-end: middle ;
     text-align: center;
@@ -155,7 +161,6 @@ p.text a:hover {
 }
 
 .boop1 {
-    background-color: lightcyan;
     grid-column-start: middle ;
     grid-column-end: end ;
     text-align: center;
