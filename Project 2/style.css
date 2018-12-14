@@ -54,9 +54,9 @@ nav {
 
 /*
 .bottom-left {
-    position: absolute;
-    bottom: 30px;
-    left: 50px;
+position: absolute;
+bottom: 30px;
+left: 50px;
 }
 */
 
@@ -113,6 +113,12 @@ a.right_aligned {
     font-size: 15px;
     line-height: 22px;
     max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic {
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -184,5 +190,5 @@ p {
 
 
 p,div, h1,h2,h2,h3,h4,h5,section,nav {
-/*    border: 1px solid red ;*/
+    /*    border: 1px solid red ;*/
 }
