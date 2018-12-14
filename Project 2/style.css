@@ -52,11 +52,13 @@ nav {
 
 /*HOME PAGE*/
 
+/*
 .bottom-left {
     position: absolute;
     bottom: 30px;
     left: 50px;
 }
+*/
 
 /*END HOME PAGE*/
 
@@ -85,7 +87,12 @@ nav {
 .characters_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1em ;
 
+}
+
+a.right_aligned {
+    text-align: right ;
 }
 
 /*END CHARACTER PAGE*/
@@ -166,7 +173,16 @@ p {
     text-align: left;
 }
 
+#home_image {
+    width: 100% ;
+}
+
 /*font-family: 'Quicksand', sans-serif;*/
 /*font-family: 'Fugaz One', cursive;*/
 
 /*END HEADERS*/
+
+
+p,div, h1,h2,h2,h3,h4,h5,section,nav {
+/*    border: 1px solid red ;*/
+}
