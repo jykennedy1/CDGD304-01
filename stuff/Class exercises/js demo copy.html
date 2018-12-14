@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>
+            JavaScript 1 | in-class demo | class 11
+        </title>
+
+    </head>
+    <body>
+        <h1 id="h1_title">js demo - class 11.html</h1>
+        <hr />
+        <script type="text/javascript">
+
+            var myAge = 18 ; 
+
+            //            document.write("<p>My age is " + myAge + ".<p>") ;
+
+            //            var yourAge = 36 ;
+
+            var us_legal_drinking_age = 21 ;
+            var ca_legal_drinking_age = 18 ;
+
+            //            document.write ("<p>") ;
+            //            document.write (myAge+yourAge) ;
+            //            document.write ("<p>") ;
+
+            //            if (comparison is true) {
+            //                
+            //            }
+
+            if ( myAge >= us_legal_drinking_age) {
+                document.write ("<p>You are legally allowed to drink in the US.<p>") ;
+            }
+
+            else if (myAge >= ca_legal_drinking_age) {
+                document.write ("You're too young to drink in the US. Why not head north to Canada. The legal age is only 18 there. Woohoo! No prospect of jail time.") ;
+            }
+
+            else {
+                document.write ("<p>You're too young to drink. For now. Maybe one day you'll be old enough, young buck.<p>")
+            }
+
+
+            var counter = 0 ;
+
+            while( counter < 5) {
+                document.write( "<p>This is paragraph " + (counter + 1) + ".</p>" )
+
+                console.log (counter) ;
+
+                counter = counter + 1 ;
+
+            }
+
+
+
+
+
+
+
+            //            if (myAge>= ca_legal_drinking_age) {
+            //                document.write ("<p>You are legally allowed to drink in Canada.<p>") ;
+            //            }
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
