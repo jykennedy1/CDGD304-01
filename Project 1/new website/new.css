@@ -252,6 +252,14 @@ background-color: blue ;
 
 }
 
+/*
+.info2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;  
+}
+*/
 
 #work_grid {
     display: grid;
@@ -266,8 +274,8 @@ background-color: blue ;
 }
 
 #page_content {
-    max-width: 800px ;
-/*    border: solid red 1px;*/
+    max-width: 500px ;
+    /*    border: solid red 1px;*/
 
 }
 
@@ -295,3 +303,8 @@ background-color: blue ;
     text-decoration: none;
     color: gray;
 }
+
+h1{
+    text-align: center;
+}
+
