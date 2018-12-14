@@ -187,18 +187,18 @@ section {
 
 .label {
     /* background-color: red ;*/
-/*
+    /*
     font-family: Helvetica ;
     font-weight: bold ;
     font-size: 8em ;
     position: relative ;
     top:314px ;
-*/
+    */
     /*
     position: relative works in conjunction with the top, bottem, left, right
     */
-    
-        /*    background-color: red ;*/
+
+    /*    background-color: red ;*/
     font-family: Helvetica ;
     font-weight: bold ;
     font-size: 8em ;
@@ -252,6 +252,30 @@ background-color: blue ;
 
 }
 
+
+#work_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+#page_content {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page_content {
+    max-width: 800px ;
+/*    border: solid red 1px;*/
+
+}
+
+.mePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .footer {
